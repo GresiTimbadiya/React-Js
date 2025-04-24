@@ -1,5 +1,300 @@
 {
     "logo": {
-        "img": ""
-    }
+        "img": "https://www.rnwmultimedia.edu.in/assets/img/photos/rnw-logo.png"
+    },
+    "menu": [
+        "home",
+        {
+            "STD_10th-12th": [
+                "ITA-CS+",
+                "Animation & VFX 2 year",
+                "Business Administration Commerce"
+            ]
+        },
+        {
+            "CareerCourses": [
+                "Designing",
+                {
+                    "Designing": [
+                        "Master in Graphic Design",
+                        "Master in UI/UX & Graphic Design",
+                        "UI/UX Design course",
+                        "Master in Game Design"
+                    ]
+                },
+                "Visualization",
+                {
+                    "Visualization": [
+                        "Master in Animation",
+                        "Animation & VFX 2 year"
+                    ]
+                },
+                "Coding & Programming",
+                {
+                    "CodingProgramming": [
+                        "Master in Web Designing",
+                        "Master in Front End Developing",
+                        "Master in Web Development",
+                        "Master in Android Development",
+                        "Master in iOS Development",
+                        "Master in Game Development",
+                        "Master in Flutter",
+                        "Advance in Python",
+                        "Full Stack Development"
+                    ]
+                }
+            ]
+        },
+        {
+            "Courses": [
+                "Programming",
+                {
+                    "Programming": [
+                        "Java",
+                        "Android",
+                        "iOS",
+                        "React Native",
+                        "React.js",
+                        "Node.js",
+                        "PHP",
+                        "Unity C# Script",
+                        "Angular Js",
+                        "laravel",
+                        "Python"
+                    ]
+                },
+                "Graphic Design",
+                {
+                    "GraphicDesign": [
+                        "Photoshop",
+                        "Illustrator",
+                        "Figma",
+                        "Corel Draw",
+                        "After Effects",
+                        "Poster Designing"
+                    ]
+                },
+                "Video Editing",
+                {
+                    "VideoEditing": [
+                        "Video Editing",
+                        "Davinci Resolve Course"
+                    ]
+                },
+                "Short Term",
+                {
+                    "ShortTerm": [
+                        "Microsoft Office",
+                        "Cyber Security",
+                        "Full Stack Development Bootcamp",
+                        "Data Analysis",
+                        "Autodesk Autocad course",
+                        "Digital Marketing",
+                        "Visual Effects Course"
+                    ]
+                },
+                "Fronted Coding",
+                {
+                    "FrontedCoding": [
+                        "Bootstrap",
+                        "HTML5 CSS3"
+                    ]
+                },
+                "Project training",
+                {
+                    "ProjectTraining": [
+                        "PHP",
+                        "Android Training",
+                        "iOS",
+                        "Java",
+                        "Flutter",
+                        "Python"
+                    ]
+                },
+                "Foundation Courses",
+                {
+                    "FoundationCourses": [
+                        "CCC",
+                        "C & C++",
+                        "Software Development Foundation"
+                    ]
+                },
+                "Corporate Training",
+                {
+                    "CorporateTraining": [
+                        "Public Speaking Course",
+                        "Entrepreneurship Bootcamp"
+                    ]
+                },
+                "Next-GEN technologies",
+                {
+                    "NextGenTechnologies": [
+                        "Data Science & AI-ML Python",
+                        "AR-VR"
+                    ]
+                },
+                "Accounting",
+                {
+                    "Accounting": "Diploma in Practical Accounting & Taxation"
+                }
+            ]
+        },
+        {
+            "AboutUs": [
+                "Group of institutes",
+                {
+                    "GroupInstitutes": [
+                        "RNW Designing institute",
+                        "RNW International"
+                    ]
+                },
+                "Career With Us",
+                "Affiliations / Authorised",
+                "Press Notes"
+            ]
+        },
+        {
+            "StudentCorner": [
+                "Apply job",
+                "Placement",
+                "Company Visit",
+                "Expert Session",
+                "Placement Drive",
+                "Grievance",
+                "Why I Choose RNW",
+                "Placement Partners",
+                "Student Works"
+            ]
+        },
+        "Contact Us"
+    ],
+    "slider": {
+        "img": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "rightCourse": [
+        "Web Designing",
+        "iOS Development",
+        "Web Development",
+        "Android Development",
+        "Animation",
+        "AI & Data Science",
+        "Game Design & Development",
+        "Full Stack Development",
+        "UI-UX & Graphics Design",
+        "Poster-Design",
+        "Cyber Security"
+    ],
+    "syllabusMentor": [
+        {
+            "name": "Mr. Alok Kumar",
+            "about": "Director UX @ Myntra Ex Walmart, Microsoft, Vedantu, BlueStone",
+            "mentor": "UI/UX"
+        },
+        {
+            "name": "Mr. Piyush Jinjala",
+            "about": "Compositor Associate at Sony Pictures Imageworks, Canada",
+            "mentor": "Animation"
+        },
+        {
+            "name": "Mr. Jemish Lakhani",
+            "about": "Founder & CEO of XSQUADS Tech Pvt Ltd",
+            "mentor": "Game Design & Development"
+        },
+        {
+            "name": "Mr. Mohit Rajput",
+            "about": "Professional Bollywood Movie Poster Designer",
+            "mentor": "Graphic Design"
+        }
+    ],
+    "fonderVideo": {
+        "image": "https://www.rnwmultimedia.edu.in/assets/img/photos/5-pillers.jfif"
+    },
+    "legacyTrust": {
+        "title": "Legacy of 100% Trust with Students & Parents",
+        "des": "Legacy of 100% Trust with Students & Parents All types of IT & Multimedia technology-oriented knowledge-providing organizations means Red & White, where all the syllabus are developed on a research basis. some of the benefits to study in Red & White...",
+        "Points": [
+            "100% field Oriented Training.",
+            "Courses according to the international approach.",
+            "25% Scholarship to an orphan student.",
+            "Growth Mindset Culture",
+            "Company Visit",
+            "Multiple Training Center",
+            "International collaborations like ISO Approved.",
+            "A wonderful campus where education is a perfect combination of humour with knowledge and personality development.",
+            "Day & Events Celebration"
+        ]
+    },
+    "WebDesignCourse": {
+        "heading": "Gujarat's #1 Web Design Course Training Institute",
+        "title": "Red and White Skill Education",
+        "des": "Red and White Skill Education is one of the best web design training institutes in Surat , offering an advanced web design course module. Students who are taking web design classes with us are extremely satisfied. Here are a few reasons why students prefer us:",
+        "facility": [
+            "Certified Course",
+            "Job Support",
+            "Various Events",
+            "Multiple Training Centers",
+            "Industry-Oriented Training",
+            "Multiple Placement Partners",
+            "Trusted by Students",
+            "World-Class Infrastructure"
+        ]
+    },
+    "whereBranch": [
+        {
+            "img": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689422869872-961501515.png",
+            "cityName": "Surat",
+            "location": "in 8 locations"
+        },
+        {
+            "img": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689571253161-647992325.png",
+            "cityName": "Ahmedabad",
+            "location": "in 6 locations"
+        },
+        {
+            "img": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689422909981-84113364.png",
+            "cityName": "Rajkot",
+            "location": "in 2 locations"
+        },
+        {
+            "img": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689422920706-236410409.png",
+            "cityName": "Amreli",
+            "location": "in 1 locations"
+        },
+        {
+            "img": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689570025417-692172.png",
+            "cityName": "Anand",
+            "location": "in 1 locations"
+        },
+        {
+            "img": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689423527118-382514879.png",
+            "cityName": "Bhavnagar",
+            "location": "in 1 locations"
+        },
+        {
+            "img": "https://www.rnwmultimedia.edu.in/new_panel/uploads/navsari.png",
+            "cityName": "Navsari",
+            "location": "in 1 locations"
+        },
+        {
+            "img": "https://www.rnwmultimedia.edu.in/new_panel/uploads/gandhinagar-1.jpg",
+            "cityName": "Gandhinagar",
+            "location": "in 1 locations"
+        },
+        {
+            "img": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1706614514308-195078638.jpg",
+            "cityName": "Bharuch",
+            "location": "in 1 locations"
+        }
+    ],
+    "trendingCourses": [
+        {
+            "image": "https://www.rnwmultimedia.edu.in/images/animation.jpg",
+            "title": "Animation"
+        }
+    ]
 }

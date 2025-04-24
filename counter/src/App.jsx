@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Counter from "./assets/Counter"
+import Counter from "./Counter"
 import "bootstrap/dist/css/bootstrap.min.css";
 import Todolist from "./Todolist";
 

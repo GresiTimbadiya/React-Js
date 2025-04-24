@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Color from "../Color"
+import Color from "./Color"
 
 const Counter = ({ cnt, plus, minus, reset, minusBtn }) => {
 
