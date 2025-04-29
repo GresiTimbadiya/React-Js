@@ -2,7 +2,7 @@
 const Color = ({ color }) => {
     return (
         <>
-            <div align="center">
+            {/* <div align="center">
                 <h3>Color</h3>
                 {
                     color.map((color, index) => {
@@ -11,7 +11,7 @@ const Color = ({ color }) => {
                         )
                     })
                 }
-            </div>
+            </div> */}
         </>
     )
 }
