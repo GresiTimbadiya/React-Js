@@ -63,7 +63,7 @@ function App() {
                   <td>{category}</td>
                   <td>{price}</td>
                   <td>{stock}</td>
-                  <td>{discount}</td>
+                  <td>{discount} %</td>
                 </tr>
               );
             })
