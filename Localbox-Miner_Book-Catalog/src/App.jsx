@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import swal from 'sweetalert';
 
 function App() {
   const [allData, setAllData] = useState(JSON.parse(localStorage.getItem("books")) || []);
@@ -9,12 +10,12 @@ function App() {
     genre: "",
     isbn: "",
     year: ""
-  });
+  })
   const [editId, setEditId] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setBook({ 
+    setBook({
       ...book,
       [name]: value
     })
@@ -24,7 +25,7 @@ function App() {
     e.preventDefault();
     const { title, author, genre, isbn, year } = book;
     if (!title || !author || !genre || !isbn || !year) {
-      alert("Please fill all fields!");
+      swal("Error...", "Please fill all fields!", "error");
       return false;
     }
 
@@ -39,40 +40,34 @@ function App() {
     setBook({
       title: "", author: "", genre: "", isbn: "", year: ""
     })
-    alert("Book added...");
+    swal("Book added...", "You clicked the button!", "success");
   }
 
   const deleteBook = (id) => {
     const deleteBook = allData.filter((val) => val.id !== id);
     setAllData(deleteBook);
     localStorage.setItem("books", JSON.stringify(deleteBook));
-    alert("Book deleted...");
+    swal("Book deleted...", "You clicked the button!", "success");
   }
 
   const editBook = (id) => {
     const singleBook = allData.find((val) => val.id === id);
     setBook(singleBook);
     setEditId(id);
-    document.getElementById("add").style.display = "none";
-    document.getElementById("edit").style.display = "block";
   }
 
   const updateBook = () => {
     const updateBooks = allData.map((item) =>
-      item.id === editId ? {
-        ...item,
-        ...book
-      } : item
+      item.id === editId ? { ...item, ...book } : item
     )
     setAllData(updateBooks);
     localStorage.setItem("books", JSON.stringify(updateBooks));
 
     setBook({ title: "", author: "", genre: "", isbn: "", year: "" });
+    swal("Book updated...", "You clicked the button!", "success");
     setEditId("");
-    document.getElementById("add").style.display = "block";
-    document.getElementById("edit").style.display = "none";
-    alert("Book updated...");
   }
+
 
   return (
     <>
@@ -114,9 +109,21 @@ function App() {
                 </div>
 
                 <div className="d-flex justify-content-between">
-                  <button type="submit" id="add" className="btn btn-primary w-100 me-2" >Add Book</button>
-                  <button type="button" id="edit" className="btn btn-success w-100" onClick={updateBook}
-                    style={{ display: "none" }} > Update Book </button>
+                  {editId ? (
+                    <button type="button" className="btn btn-success w-100" onClick={updateBook}>
+                      Update Book
+                    </button>
+                  ) : (
+                    <button type="button" className="btn btn-primary w-100" onClick={handleSubmit}>
+                      Add Book
+                    </button>
+                  )}
+                  {editId && (
+                    <button type="button" className="btn btn-danger w-100 ms-2" onClick={() => {
+                      setBook({ title: "", author: "", genre: "", isbn: "", year: "" });
+                      setEditId("");
+                    }} > Cancel Edit </button>
+                  )}
                 </div>
               </form>
             </div>
